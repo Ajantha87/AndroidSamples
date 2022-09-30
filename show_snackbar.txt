@@ -1,0 +1,5 @@
+
+Snackbar.make(VIEW, "Do you want to open Settings", Snackbar.LENGTH_LONG)
+	.setAction("Yes") {
+		startActivity(INTENT)
+	}.show()
