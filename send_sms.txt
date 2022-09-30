@@ -1,0 +1,3 @@
+
+val smsManager = SmsManager.getDefault() as SmsManager
+smsManager.sendTextMessage("1234567890", null, "Hi, how are you?", null, null)
