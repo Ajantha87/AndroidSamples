@@ -1,0 +1,3 @@
+
+val intent = Intent(CONTEXT, ACTIVITY::class.java)
+startActivity(intent)
